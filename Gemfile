@@ -44,3 +44,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_ams', github: 'vinsol-spree-contrib/spree_ams', branch: '3-1-stable'
+gem 'rack-cors', :require => 'rack/cors'
